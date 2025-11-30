@@ -44,8 +44,8 @@ const ClientDashboard = () => {
     ];
 
     const doctors = [
-        { name: 'Mary Weather', specialty: 'General', photo: null },
-        { name: 'Martina Thomp', specialty: 'Dermatology', photo: null },
+        { name: 'Mary Weather', specialty: 'General', photo: '/images/mary.jpg' },
+        { name: 'Martina Thomp', specialty: 'Dermatology', photo: '/images/martina.jpg' },
         { name: 'Betty van Damm', specialty: 'General person', photo: null },
         { name: 'Rudy Piers', specialty: 'General', photo: null },
         { name: 'Evan Terry', specialty: 'General', photo: null }
@@ -238,8 +238,8 @@ const ClientDashboard = () => {
                                 {doctors.map((doctor, idx) => (
                                     <div key={idx} className="flex items-center justify-between">
                                         <div className="flex items-center gap-3">
-                                            <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden">
-                                                <img src={`https://ui-avatars.com/api/?name=${doctor.name.replace(' ', '+')}&background=random`} alt={doctor.name} className="w-full h-full object-cover" />
+                                            <div className="w-25 h-25 rounded-full bg-gray-200 overflow-hidden" style={{ width: '100px', height: '100px' }}>
+                                                <img src={doctor.photo || `https://ui-avatars.com/api/?name=${doctor.name.replace(' ', '+')}&background=random`} alt={doctor.name} className="w-full h-full object-cover" />
                                             </div>
                                             <div>
                                                 <p className="text-sm font-medium text-gray-900">{doctor.name}</p>

@@ -16,15 +16,15 @@ const FindDoctor = () => {
 
     // Mock data for doctors
     const doctors = [
-        { id: 1, name: 'Gill Hames', specialty: 'Pediatric dentistry', image: null, rating: 5, location: 'Copenhagen' },
-        { id: 2, name: 'Finn McDonald', specialty: 'Dentistry', image: null, rating: 4.8, location: 'Copenhagen' },
-        { id: 3, name: 'Donna Summer', specialty: 'Prosthodontics', image: null, rating: 4.9, location: 'Copenhagen' },
-        { id: 4, name: 'Dagmar McLean', specialty: 'Psychiatry', image: null, rating: 4.7, location: 'Copenhagen' },
-        { id: 5, name: 'Richard Kicker', specialty: 'Urology', image: null, rating: 4.6, location: 'Copenhagen' },
-        { id: 6, name: 'Millie Billie', specialty: 'Dermatology', image: null, rating: 4.9, location: 'Copenhagen' },
-        { id: 7, name: 'Duncan Pitt', specialty: 'Orthodontics', image: null, rating: 4.5, location: 'Copenhagen' },
-        { id: 8, name: 'Mary Weather', specialty: 'Endodontics', image: null, rating: 4.8, location: 'Copenhagen' },
-        { id: 9, name: 'Jacob Abel', specialty: 'Periodontics', image: null, rating: 4.7, location: 'Copenhagen' },
+        { id: 1, name: 'Gill Hames', specialty: 'Pediatric dentistry', image: '/images/gill.jpg', rating: 5, location: 'Copenhagen' },
+        { id: 2, name: 'Finn McDonald', specialty: 'Dentistry', image: '/images/finn.jpg', rating: 4.8, location: 'Copenhagen' },
+        { id: 3, name: 'Donna Summer', specialty: 'Prosthodontics', image: '/images/donna.jpg', rating: 4.9, location: 'Copenhagen' },
+        { id: 4, name: 'Dagmar McLean', specialty: 'Psychiatry', image: '/images/dagmar.jpg', rating: 4.7, location: 'Copenhagen' },
+        { id: 5, name: 'Richard Kicker', specialty: 'Urology', image: '/images/richard.jpg', rating: 4.6, location: 'Copenhagen' },
+        { id: 6, name: 'Millie Billie', specialty: 'Dermatology', image: '/images/millie.jpg', rating: 4.9, location: 'Copenhagen' },
+        { id: 7, name: 'Duncan Pitt', specialty: 'Orthodontics', image: '/images/duncan.jpg', rating: 4.5, location: 'Copenhagen' },
+        { id: 8, name: 'Mary Weather', specialty: 'Endodontics', image: '/images/mary.jpg', rating: 4.8, location: 'Copenhagen' },
+        { id: 9, name: 'Jacob Abel', specialty: 'Periodontics', image: '/images/gill.jpg', rating: 4.7, location: 'Copenhagen' },
     ];
 
     return (

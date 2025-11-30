@@ -35,17 +35,35 @@ const Specialists = () => {
                     </div>
 
                     <div className="relative">
-                        {/* Placeholder for the doctor image */}
-                        <div className="bg-gray-100 rounded-full aspect-square max-w-md mx-auto flex items-center justify-center">
-                            <span className="text-gray-400">Doctor Image</span>
+                        {/* Professional doctor image in a circle */}
+                        <div className="bg-gray-100 rounded-full aspect-square max-w-md mx-auto overflow-hidden">
+                            <img
+                                src="/doctor-specialist.jpg"
+                                alt="Professional Doctor"
+                                className="w-full h-full object-cover"
+                            />
                         </div>
-                        {/* Floating Badge */}
-                        <div className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white p-3 rounded-xl shadow-lg">
+
+                        {/* Floating Badge - All Fields */}
+                        <div className="absolute top-1/3 -left-4 bg-white py-3 px-4 rounded-full shadow-lg">
                             <div className="flex items-center space-x-2">
-                                <span className="text-yellow-500">★</span>
-                                <span className="text-sm font-bold">All Fields</span>
+                                <span className="text-yellow-500 text-xl">★</span>
+                                <div className="flex flex-col">
+                                    <span className="text-sm font-bold text-gray-800">All Fields</span>
+                                    <span className="text-xs text-gray-500">of specialization</span>
+                                </div>
                             </div>
-                            <span className="text-xs text-gray-500">of specialization</span>
+                        </div>
+
+                        {/* Floating Badge - Rating */}
+                        <div className="absolute bottom-8 -right-4 bg-white py-3 px-4 rounded-full shadow-lg">
+                            <div className="flex items-center space-x-2">
+                                <span className="text-blue-500 text-2xl">😊</span>
+                                <div className="flex flex-col">
+                                    <span className="text-lg font-bold text-gray-800">9.5/10.0</span>
+                                    <span className="text-xs text-gray-500">Avg doctor rating</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

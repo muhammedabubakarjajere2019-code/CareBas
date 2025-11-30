@@ -58,10 +58,12 @@ const Hero = () => {
                     {/* Right Image */}
                     <div className="relative">
                         <div className="relative rounded-full overflow-hidden bg-gray-100 aspect-square max-w-md mx-auto">
-                            {/* Placeholder for the doctor image - in a real app this would be an img tag */}
-                            <div className="absolute inset-0 flex items-center justify-center bg-teal-50">
-                                <span className="text-teal-200 text-6xl">Doctor Image</span>
-                            </div>
+                            {/* Professional doctor image in a circle */}
+                            <img
+                                src="/doctor-hero.png"
+                                alt="Professional Doctor"
+                                className="w-full h-full object-cover"
+                            />
                             {/* Floating Badges */}
                             <div className="absolute top-10 left-0 bg-white p-3 rounded-xl shadow-lg flex items-center space-x-2 animate-bounce-slow">
                                 <div className="bg-blue-100 p-2 rounded-full">
