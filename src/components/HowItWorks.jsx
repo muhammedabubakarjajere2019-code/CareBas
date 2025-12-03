@@ -54,8 +54,8 @@ const HowItWorks = () => {
                                 {/* Circular background */}
                                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-100 to-purple-100 flex items-end justify-center overflow-hidden">
                                     <img
-                                        src="/doctor-specialist.jpg"
-                                        alt="Doctor"
+                                        src="/doctor-andrew.jpg"
+                                        alt="Dr. Andrew Eyeball"
                                         className="w-full h-full object-cover object-top"
                                     />
                                 </div>
@@ -64,6 +64,15 @@ const HowItWorks = () => {
                                     <CheckCircle className="w-5 h-5 text-teal-600" />
                                     <span className="text-sm font-semibold text-gray-800">Sign up now</span>
                                     <span className="text-xs text-gray-500">in next page, check us!</span>
+                                </div>
+                                {/* Doctor name tag */}
+                                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full px-4 py-2 shadow-lg flex items-center gap-2">
+                                    <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center">
+                                        <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+                                        </svg>
+                                    </div>
+                                    <span className="text-sm font-semibold text-gray-800">Dr. Andrew Eyeball</span>
                                 </div>
                             </div>
                         </div>

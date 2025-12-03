@@ -51,7 +51,7 @@ const Hero = () => {
                         {/* Circular Doctor Image Container */}
                         <div className="relative rounded-full overflow-hidden bg-gradient-to-br from-gray-300 to-gray-400 aspect-square shadow-2xl">
                             <img
-                                src="/doctor-hero.png"
+                                src="/doctor-nurse.png"
                                 alt="Professional Doctor"
                                 className="w-full h-full object-cover"
                             />

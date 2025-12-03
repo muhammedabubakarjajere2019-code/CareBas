@@ -38,7 +38,7 @@ const Specialists = () => {
                         {/* Professional doctor image in a circle */}
                         <div className="bg-gray-100 rounded-full aspect-square max-w-md mx-auto overflow-hidden">
                             <img
-                                src="/doctor-specialist.jpg"
+                                src="/doctor-specialist-new.jpg"
                                 alt="Professional Doctor"
                                 className="w-full h-full object-cover"
                             />
